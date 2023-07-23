@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zGcdmJVYJd8vv6iBbkKUQH60VUqsIguUoX7InR+qdFX/3w10jgJTonK1roF2ikUzMjNp49IUtKEDYbUc6l5DMg==",
+  "dgSpecHash": "fkeV+LcSCEDhyLNtedlr1GLyZxYy6u1ATZnQ60Z+pV7nyRq5pcudgIqAXZ64pAb0F6MvjJNCA3QRMsoSCQma/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\AmandaMarquesPardinh\\Desktop\\Performa\\repositorios\\Identity\\UsuariosAPI\\UsuariosAPI.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\AmandaMarquesPardinh\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\AmandaMarquesPardinh\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\AmandaMarquesPardinh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\AmandaMarquesPardinh\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.20\\microsoft.aspnetcore.authentication.jwtbearer.6.0.20.nupkg.sha512",
     "C:\\Users\\AmandaMarquesPardinh\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.9\\microsoft.aspnetcore.cryptography.internal.7.0.9.nupkg.sha512",
     "C:\\Users\\AmandaMarquesPardinh\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.9\\microsoft.aspnetcore.cryptography.keyderivation.7.0.9.nupkg.sha512",
     "C:\\Users\\AmandaMarquesPardinh\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.20\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.20.nupkg.sha512",
