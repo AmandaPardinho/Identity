@@ -16,7 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<UsuarioDbContext>
     (opts =>
     {
-        opts.UseSqlServer(builder.Configuration.GetConnectionString("UsuarioConnection"));
+        opts.UseSqlServer(builder.Configuration["ConnectionStrings:UsuarioConnection"]);
     });
 
 builder.Services
@@ -40,7 +40,7 @@ builder.Services.AddAuthentication(options =>
     options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("hjdsgfgsfhJSVFI96154SNHJFBBCKHJVGJ")),
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["SymmetricSecurityKey"])),
         ValidateAudience = false,
         ValidateIssuer = false,
         ClockSkew = TimeSpan.Zero
